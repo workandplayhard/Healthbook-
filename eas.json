@@ -1,0 +1,73 @@
+{
+  "cli": {
+    "version": ">= 3.5.2",
+    "promptToConfigurePushNotifications": false,
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "channel": "development",
+      "distribution": "internal",
+      "autoIncrement": true,
+      "android": {
+        "gradleCommand": ":app:assembleDevelopmentRelease"
+      },
+      "ios": {
+        "scheme": "PatientPortalDev",
+        "buildConfiguration": "Release",
+        "resourceClass": "m1-medium"
+      }
+    },
+    "qa": {
+      "channel": "qa",
+      "distribution": "internal",
+      "autoIncrement": true,
+      "android": {
+        "gradleCommand": ":app:assembleQaRelease"
+      },
+      "ios": {
+        "scheme": "PatientPortalQa",
+        "buildConfiguration": "Release",
+        "resourceClass": "m1-medium"
+      }
+    },
+    "staging":{
+      "channel": "staging",
+      "distribution": "store",
+      "autoIncrement": true,
+      "android": {
+        "gradleCommand": ":app:assembleStagingRelease"
+      },
+      "ios": {
+        "scheme": "PatientPortalStg",
+        "buildConfiguration": "Release",
+        "resourceClass": "m1-medium"
+      }
+    },
+    "production": {
+      "channel": "production",
+      "distribution": "store",
+      "autoIncrement": true,
+      "android": {
+        "buildType": "app-bundle",
+        "gradleCommand": ":app:bundleProductionRelease"
+      },
+      "ios": {
+        "scheme": "PatientPortal",
+        "buildConfiguration": "Release",
+        "resourceClass": "m1-medium"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "track": "internal",
+        "applicationId": "com.healthbookplus.patientportal",
+      },
+      "ios": {
+        "bundleIdentifier": "com.healthbookplus.patientportal"
+      }
+    }
+  }
+}

@@ -1,0 +1,1495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* PatientPortalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PatientPortalTests.m */; };
+		0C6BAEEB80E97B34BBE17B3E /* libPods-PatientPortalCommonPods-PatientPortalTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BBFFC1593D4BF5880BBCA5 /* libPods-PatientPortalCommonPods-PatientPortalTests.a */; };
+		0F88A879AF5CBB4EA1A0B38B /* libPods-PatientPortalCommonPods-PatientPortalQa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E44B5E68F540030242691A25 /* libPods-PatientPortalCommonPods-PatientPortalQa.a */; };
+		132CE6E3299655F1001ED158 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132CE6E2299655F1001ED158 /* AntDesign.ttf */; };
+		132CE6E4299655F1001ED158 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132CE6E2299655F1001ED158 /* AntDesign.ttf */; };
+		132CE6E5299655F1001ED158 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132CE6E2299655F1001ED158 /* AntDesign.ttf */; };
+		132CE6E6299655F1001ED158 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132CE6E2299655F1001ED158 /* AntDesign.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		13C5A255298C1A4F005FDF61 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		14AC68E3216E43C186E872B6 /* AvenirNext-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57AA400BE4B148E8851D902F /* AvenirNext-Bold.otf */; };
+		56A7B2BED09A9B07E8BACB87 /* libPods-PatientPortalCommonPods-PatientPortalStg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE12B7BEA1505393DF68B85 /* libPods-PatientPortalCommonPods-PatientPortalStg.a */; };
+		5DB9CF4A381AEE07E3A16AAA /* libPods-PatientPortalCommonPods-PatientPortal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1284CFCF7E301A36FC48A81 /* libPods-PatientPortalCommonPods-PatientPortal.a */; };
+		659334E1EA24487DAECDAF03 /* AvenirNext-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C309FD781AA746AA88A49279 /* AvenirNext-MediumItalic.otf */; };
+		66AB83C8FCA228728331A333 /* libPods-PatientPortalCommonPods-PatientPortalDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B390632F9278B76FF929CF67 /* libPods-PatientPortalCommonPods-PatientPortalDev.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		98B03FC9229B40138F373699 /* AvenirNext-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BACEC1B06C81435BA222E57E /* AvenirNext-Regular.otf */; };
+		BC9D0E85216B496EBADCE2EC /* AvenirNext-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C9ED7F37A5344D05B8B94395 /* AvenirNext-Medium.otf */; };
+		D870E7732992ECF2005D176C /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		D870E7742992ECF2005D176C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		D870E7782992ECF2005D176C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D870E7792992ECF2005D176C /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8B7B8BA29555DBE00937016 /* MaterialIcons.ttf */; };
+		D870E77A2992ECF2005D176C /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8B7B8B029555DBE00937016 /* MaterialCommunityIcons.ttf */; };
+		D870E77B2992ECF2005D176C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		D870E77C2992ECF2005D176C /* AvenirNext-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57AA400BE4B148E8851D902F /* AvenirNext-Bold.otf */; };
+		D870E77D2992ECF2005D176C /* AvenirNext-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6F2BAE1E39F48A3BA98504C /* AvenirNext-BoldItalic.otf */; };
+		D870E77E2992ECF2005D176C /* AvenirNext-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D01FB060683A4653A7B182A4 /* AvenirNext-Italic.otf */; };
+		D870E77F2992ECF2005D176C /* AvenirNext-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C9ED7F37A5344D05B8B94395 /* AvenirNext-Medium.otf */; };
+		D870E7802992ECF2005D176C /* AvenirNext-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C309FD781AA746AA88A49279 /* AvenirNext-MediumItalic.otf */; };
+		D870E7812992ECF2005D176C /* AvenirNext-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BACEC1B06C81435BA222E57E /* AvenirNext-Regular.otf */; };
+		D870E78E2992F254005D176C /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		D870E78F2992F254005D176C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		D870E7932992F254005D176C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D870E7942992F254005D176C /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8B7B8BA29555DBE00937016 /* MaterialIcons.ttf */; };
+		D870E7952992F254005D176C /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8B7B8B029555DBE00937016 /* MaterialCommunityIcons.ttf */; };
+		D870E7962992F254005D176C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		D870E7972992F254005D176C /* AvenirNext-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57AA400BE4B148E8851D902F /* AvenirNext-Bold.otf */; };
+		D870E7982992F254005D176C /* AvenirNext-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6F2BAE1E39F48A3BA98504C /* AvenirNext-BoldItalic.otf */; };
+		D870E7992992F254005D176C /* AvenirNext-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D01FB060683A4653A7B182A4 /* AvenirNext-Italic.otf */; };
+		D870E79A2992F254005D176C /* AvenirNext-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C9ED7F37A5344D05B8B94395 /* AvenirNext-Medium.otf */; };
+		D870E79B2992F254005D176C /* AvenirNext-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C309FD781AA746AA88A49279 /* AvenirNext-MediumItalic.otf */; };
+		D870E79C2992F254005D176C /* AvenirNext-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BACEC1B06C81435BA222E57E /* AvenirNext-Regular.otf */; };
+		D870E7A92992F28A005D176C /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		D870E7AA2992F28A005D176C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		D870E7AE2992F28A005D176C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D870E7AF2992F28A005D176C /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8B7B8BA29555DBE00937016 /* MaterialIcons.ttf */; };
+		D870E7B02992F28A005D176C /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8B7B8B029555DBE00937016 /* MaterialCommunityIcons.ttf */; };
+		D870E7B12992F28A005D176C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		D870E7B22992F28A005D176C /* AvenirNext-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57AA400BE4B148E8851D902F /* AvenirNext-Bold.otf */; };
+		D870E7B32992F28A005D176C /* AvenirNext-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6F2BAE1E39F48A3BA98504C /* AvenirNext-BoldItalic.otf */; };
+		D870E7B42992F28A005D176C /* AvenirNext-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D01FB060683A4653A7B182A4 /* AvenirNext-Italic.otf */; };
+		D870E7B52992F28A005D176C /* AvenirNext-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C9ED7F37A5344D05B8B94395 /* AvenirNext-Medium.otf */; };
+		D870E7B62992F28A005D176C /* AvenirNext-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C309FD781AA746AA88A49279 /* AvenirNext-MediumItalic.otf */; };
+		D870E7B72992F28A005D176C /* AvenirNext-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BACEC1B06C81435BA222E57E /* AvenirNext-Regular.otf */; };
+		D8B7B8C029555DBF00937016 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8B7B8B029555DBE00937016 /* MaterialCommunityIcons.ttf */; };
+		D8B7B8CA29555DBF00937016 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8B7B8BA29555DBE00937016 /* MaterialIcons.ttf */; };
+		DDC41EE87B924497AEFF7AD8 /* AvenirNext-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D01FB060683A4653A7B182A4 /* AvenirNext-Italic.otf */; };
+		E50DD03E808140AEB853393E /* AvenirNext-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6F2BAE1E39F48A3BA98504C /* AvenirNext-BoldItalic.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = PatientPortal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* PatientPortalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatientPortalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* PatientPortalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatientPortalTests.m; sourceTree = "<group>"; };
+		132CE6E2299655F1001ED158 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* PatientPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PatientPortal/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = PatientPortal/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PatientPortal/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PatientPortal/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PatientPortal/main.m; sourceTree = "<group>"; };
+		1FC7575A4D2CD2119A683A32 /* Pods-PatientPortalCommonPods-PatientPortalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientPortalCommonPods-PatientPortalTests.debug.xcconfig"; path = "Target Support Files/Pods-PatientPortalCommonPods-PatientPortalTests/Pods-PatientPortalCommonPods-PatientPortalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		26E9FEB8B8FD1F9F70463190 /* Pods-PatientPortalCommonPods-PatientPortal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientPortalCommonPods-PatientPortal.debug.xcconfig"; path = "Target Support Files/Pods-PatientPortalCommonPods-PatientPortal/Pods-PatientPortalCommonPods-PatientPortal.debug.xcconfig"; sourceTree = "<group>"; };
+		2AB83488BE9DED129A1B0241 /* Pods-PatientPortalCommonPods-PatientPortalStg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientPortalCommonPods-PatientPortalStg.release.xcconfig"; path = "Target Support Files/Pods-PatientPortalCommonPods-PatientPortalStg/Pods-PatientPortalCommonPods-PatientPortalStg.release.xcconfig"; sourceTree = "<group>"; };
+		41C5D3F2764AB4A79FD49FD1 /* Pods-PatientPortalCommonPods-PatientPortalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientPortalCommonPods-PatientPortalTests.release.xcconfig"; path = "Target Support Files/Pods-PatientPortalCommonPods-PatientPortalTests/Pods-PatientPortalCommonPods-PatientPortalTests.release.xcconfig"; sourceTree = "<group>"; };
+		460CB4EA6DEC01D07CA054BE /* Pods-PatientPortalCommonPods-PatientPortalDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientPortalCommonPods-PatientPortalDev.debug.xcconfig"; path = "Target Support Files/Pods-PatientPortalCommonPods-PatientPortalDev/Pods-PatientPortalCommonPods-PatientPortalDev.debug.xcconfig"; sourceTree = "<group>"; };
+		47BBFFC1593D4BF5880BBCA5 /* libPods-PatientPortalCommonPods-PatientPortalTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PatientPortalCommonPods-PatientPortalTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57AA400BE4B148E8851D902F /* AvenirNext-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNext-Bold.otf"; path = "../src/assets/fonts/AvenirNext-Bold.otf"; sourceTree = "<group>"; };
+		5FE12B7BEA1505393DF68B85 /* libPods-PatientPortalCommonPods-PatientPortalStg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PatientPortalCommonPods-PatientPortalStg.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = PatientPortal/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9303DFB08A540A36B23DE6AB /* Pods-PatientPortalCommonPods-PatientPortalStg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientPortalCommonPods-PatientPortalStg.debug.xcconfig"; path = "Target Support Files/Pods-PatientPortalCommonPods-PatientPortalStg/Pods-PatientPortalCommonPods-PatientPortalStg.debug.xcconfig"; sourceTree = "<group>"; };
+		A4C3900780200B9B558127E1 /* Pods-PatientPortalCommonPods-PatientPortal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientPortalCommonPods-PatientPortal.release.xcconfig"; path = "Target Support Files/Pods-PatientPortalCommonPods-PatientPortal/Pods-PatientPortalCommonPods-PatientPortal.release.xcconfig"; sourceTree = "<group>"; };
+		AA1E3026896E27081DD80F65 /* Pods-PatientPortalCommonPods-PatientPortalQa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientPortalCommonPods-PatientPortalQa.release.xcconfig"; path = "Target Support Files/Pods-PatientPortalCommonPods-PatientPortalQa/Pods-PatientPortalCommonPods-PatientPortalQa.release.xcconfig"; sourceTree = "<group>"; };
+		AF96BAE733F7E59DBE6D5A70 /* Pods-PatientPortalCommonPods-PatientPortalDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientPortalCommonPods-PatientPortalDev.release.xcconfig"; path = "Target Support Files/Pods-PatientPortalCommonPods-PatientPortalDev/Pods-PatientPortalCommonPods-PatientPortalDev.release.xcconfig"; sourceTree = "<group>"; };
+		B117B44003A7D9812AFD2672 /* Pods-PatientPortalCommonPods-PatientPortalQa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientPortalCommonPods-PatientPortalQa.debug.xcconfig"; path = "Target Support Files/Pods-PatientPortalCommonPods-PatientPortalQa/Pods-PatientPortalCommonPods-PatientPortalQa.debug.xcconfig"; sourceTree = "<group>"; };
+		B390632F9278B76FF929CF67 /* libPods-PatientPortalCommonPods-PatientPortalDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PatientPortalCommonPods-PatientPortalDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BACEC1B06C81435BA222E57E /* AvenirNext-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNext-Regular.otf"; path = "../src/assets/fonts/AvenirNext-Regular.otf"; sourceTree = "<group>"; };
+		C309FD781AA746AA88A49279 /* AvenirNext-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNext-MediumItalic.otf"; path = "../src/assets/fonts/AvenirNext-MediumItalic.otf"; sourceTree = "<group>"; };
+		C9ED7F37A5344D05B8B94395 /* AvenirNext-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNext-Medium.otf"; path = "../src/assets/fonts/AvenirNext-Medium.otf"; sourceTree = "<group>"; };
+		D01FB060683A4653A7B182A4 /* AvenirNext-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNext-Italic.otf"; path = "../src/assets/fonts/AvenirNext-Italic.otf"; sourceTree = "<group>"; };
+		D870E7882992ECF2005D176C /* PatientPortalDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientPortalDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D870E7A32992F254005D176C /* PatientPortalQa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientPortalQa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D870E7BE2992F28A005D176C /* PatientPortalStg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientPortalStg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B18248299EDF8E00482D2A /* PatientPortal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = PatientPortal.entitlements; path = PatientPortal/PatientPortal.entitlements; sourceTree = "<group>"; };
+		D8B18249299EDFC400482D2A /* PatientPortalDev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PatientPortalDev.entitlements; sourceTree = "<group>"; };
+		D8B1824A299EDFCC00482D2A /* PatientPortalQa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PatientPortalQa.entitlements; sourceTree = "<group>"; };
+		D8B1824B299EDFD200482D2A /* PatientPortalStg.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PatientPortalStg.entitlements; sourceTree = "<group>"; };
+		D8B7B8B029555DBE00937016 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		D8B7B8BA29555DBE00937016 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		E44B5E68F540030242691A25 /* libPods-PatientPortalCommonPods-PatientPortalQa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PatientPortalCommonPods-PatientPortalQa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F1284CFCF7E301A36FC48A81 /* libPods-PatientPortalCommonPods-PatientPortal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PatientPortalCommonPods-PatientPortal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F2BAE1E39F48A3BA98504C /* AvenirNext-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNext-BoldItalic.otf"; path = "../src/assets/fonts/AvenirNext-BoldItalic.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6BAEEB80E97B34BBE17B3E /* libPods-PatientPortalCommonPods-PatientPortalTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB9CF4A381AEE07E3A16AAA /* libPods-PatientPortalCommonPods-PatientPortal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D870E7752992ECF2005D176C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AB83C8FCA228728331A333 /* libPods-PatientPortalCommonPods-PatientPortalDev.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D870E7902992F254005D176C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F88A879AF5CBB4EA1A0B38B /* libPods-PatientPortalCommonPods-PatientPortalQa.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D870E7AB2992F28A005D176C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A7B2BED09A9B07E8BACB87 /* libPods-PatientPortalCommonPods-PatientPortalStg.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* PatientPortalTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* PatientPortalTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = PatientPortalTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11A6B46DD47B41BAAF2F1702 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				57AA400BE4B148E8851D902F /* AvenirNext-Bold.otf */,
+				F6F2BAE1E39F48A3BA98504C /* AvenirNext-BoldItalic.otf */,
+				D01FB060683A4653A7B182A4 /* AvenirNext-Italic.otf */,
+				C9ED7F37A5344D05B8B94395 /* AvenirNext-Medium.otf */,
+				C309FD781AA746AA88A49279 /* AvenirNext-MediumItalic.otf */,
+				BACEC1B06C81435BA222E57E /* AvenirNext-Regular.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* PatientPortal */ = {
+			isa = PBXGroup;
+			children = (
+				D8B18248299EDF8E00482D2A /* PatientPortal.entitlements */,
+				D8B1824B299EDFD200482D2A /* PatientPortalStg.entitlements */,
+				D8B1824A299EDFCC00482D2A /* PatientPortalQa.entitlements */,
+				D8B18249299EDFC400482D2A /* PatientPortalDev.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = PatientPortal;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				F1284CFCF7E301A36FC48A81 /* libPods-PatientPortalCommonPods-PatientPortal.a */,
+				B390632F9278B76FF929CF67 /* libPods-PatientPortalCommonPods-PatientPortalDev.a */,
+				E44B5E68F540030242691A25 /* libPods-PatientPortalCommonPods-PatientPortalQa.a */,
+				5FE12B7BEA1505393DF68B85 /* libPods-PatientPortalCommonPods-PatientPortalStg.a */,
+				47BBFFC1593D4BF5880BBCA5 /* libPods-PatientPortalCommonPods-PatientPortalTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				D8B7B8AA29555DBE00937016 /* Fonts */,
+				13B07FAE1A68108700A75B9A /* PatientPortal */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* PatientPortalTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				11A6B46DD47B41BAAF2F1702 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* PatientPortal.app */,
+				00E356EE1AD99517003FC87E /* PatientPortalTests.xctest */,
+				D870E7882992ECF2005D176C /* PatientPortalDev.app */,
+				D870E7A32992F254005D176C /* PatientPortalQa.app */,
+				D870E7BE2992F28A005D176C /* PatientPortalStg.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26E9FEB8B8FD1F9F70463190 /* Pods-PatientPortalCommonPods-PatientPortal.debug.xcconfig */,
+				A4C3900780200B9B558127E1 /* Pods-PatientPortalCommonPods-PatientPortal.release.xcconfig */,
+				460CB4EA6DEC01D07CA054BE /* Pods-PatientPortalCommonPods-PatientPortalDev.debug.xcconfig */,
+				AF96BAE733F7E59DBE6D5A70 /* Pods-PatientPortalCommonPods-PatientPortalDev.release.xcconfig */,
+				B117B44003A7D9812AFD2672 /* Pods-PatientPortalCommonPods-PatientPortalQa.debug.xcconfig */,
+				AA1E3026896E27081DD80F65 /* Pods-PatientPortalCommonPods-PatientPortalQa.release.xcconfig */,
+				9303DFB08A540A36B23DE6AB /* Pods-PatientPortalCommonPods-PatientPortalStg.debug.xcconfig */,
+				2AB83488BE9DED129A1B0241 /* Pods-PatientPortalCommonPods-PatientPortalStg.release.xcconfig */,
+				1FC7575A4D2CD2119A683A32 /* Pods-PatientPortalCommonPods-PatientPortalTests.debug.xcconfig */,
+				41C5D3F2764AB4A79FD49FD1 /* Pods-PatientPortalCommonPods-PatientPortalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8B7B8AA29555DBE00937016 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				132CE6E2299655F1001ED158 /* AntDesign.ttf */,
+				D8B7B8B029555DBE00937016 /* MaterialCommunityIcons.ttf */,
+				D8B7B8BA29555DBE00937016 /* MaterialIcons.ttf */,
+			);
+			name = Fonts;
+			path = "../node_modules/react-native-vector-icons/Fonts";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* PatientPortalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PatientPortalTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = PatientPortalTests;
+			productName = PatientPortalTests;
+			productReference = 00E356EE1AD99517003FC87E /* PatientPortalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* PatientPortal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PatientPortal" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatientPortal;
+			productName = PatientPortal;
+			productReference = 13B07F961A680F5B00A75B9A /* PatientPortal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D870E76F2992ECF2005D176C /* PatientPortalDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D870E7852992ECF2005D176C /* Build configuration list for PBXNativeTarget "PatientPortalDev" */;
+			buildPhases = (
+				D870E7702992ECF2005D176C /* [CP] Check Pods Manifest.lock */,
+				D870E7712992ECF2005D176C /* Start Packager */,
+				D870E7722992ECF2005D176C /* Sources */,
+				D870E7752992ECF2005D176C /* Frameworks */,
+				D870E7772992ECF2005D176C /* Resources */,
+				D870E7822992ECF2005D176C /* Bundle React Native code and images */,
+				D870E7832992ECF2005D176C /* [CP] Embed Pods Frameworks */,
+				D870E7842992ECF2005D176C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatientPortalDev;
+			productName = PatientPortal;
+			productReference = D870E7882992ECF2005D176C /* PatientPortalDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D870E78A2992F254005D176C /* PatientPortalQa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D870E7A02992F254005D176C /* Build configuration list for PBXNativeTarget "PatientPortalQa" */;
+			buildPhases = (
+				D870E78B2992F254005D176C /* [CP] Check Pods Manifest.lock */,
+				D870E78C2992F254005D176C /* Start Packager */,
+				D870E78D2992F254005D176C /* Sources */,
+				D870E7902992F254005D176C /* Frameworks */,
+				D870E7922992F254005D176C /* Resources */,
+				D870E79D2992F254005D176C /* Bundle React Native code and images */,
+				D870E79E2992F254005D176C /* [CP] Embed Pods Frameworks */,
+				D870E79F2992F254005D176C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatientPortalQa;
+			productName = PatientPortal;
+			productReference = D870E7A32992F254005D176C /* PatientPortalQa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D870E7A52992F28A005D176C /* PatientPortalStg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D870E7BB2992F28A005D176C /* Build configuration list for PBXNativeTarget "PatientPortalStg" */;
+			buildPhases = (
+				D870E7A62992F28A005D176C /* [CP] Check Pods Manifest.lock */,
+				D870E7A72992F28A005D176C /* Start Packager */,
+				D870E7A82992F28A005D176C /* Sources */,
+				D870E7AB2992F28A005D176C /* Frameworks */,
+				D870E7AD2992F28A005D176C /* Resources */,
+				D870E7B82992F28A005D176C /* Bundle React Native code and images */,
+				D870E7B92992F28A005D176C /* [CP] Embed Pods Frameworks */,
+				D870E7BA2992F28A005D176C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatientPortalStg;
+			productName = PatientPortal;
+			productReference = D870E7BE2992F28A005D176C /* PatientPortalStg.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PatientPortal" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* PatientPortal */,
+				00E356ED1AD99517003FC87E /* PatientPortalTests */,
+				D870E76F2992ECF2005D176C /* PatientPortalDev */,
+				D870E78A2992F254005D176C /* PatientPortalQa */,
+				D870E7A52992F28A005D176C /* PatientPortalStg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				D8B7B8CA29555DBF00937016 /* MaterialIcons.ttf in Resources */,
+				D8B7B8C029555DBF00937016 /* MaterialCommunityIcons.ttf in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				14AC68E3216E43C186E872B6 /* AvenirNext-Bold.otf in Resources */,
+				E50DD03E808140AEB853393E /* AvenirNext-BoldItalic.otf in Resources */,
+				132CE6E3299655F1001ED158 /* AntDesign.ttf in Resources */,
+				DDC41EE87B924497AEFF7AD8 /* AvenirNext-Italic.otf in Resources */,
+				BC9D0E85216B496EBADCE2EC /* AvenirNext-Medium.otf in Resources */,
+				659334E1EA24487DAECDAF03 /* AvenirNext-MediumItalic.otf in Resources */,
+				13C5A255298C1A4F005FDF61 /* BuildFile in Resources */,
+				98B03FC9229B40138F373699 /* AvenirNext-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D870E7772992ECF2005D176C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D870E7782992ECF2005D176C /* LaunchScreen.storyboard in Resources */,
+				D870E7792992ECF2005D176C /* MaterialIcons.ttf in Resources */,
+				D870E77A2992ECF2005D176C /* MaterialCommunityIcons.ttf in Resources */,
+				D870E77B2992ECF2005D176C /* Images.xcassets in Resources */,
+				D870E77C2992ECF2005D176C /* AvenirNext-Bold.otf in Resources */,
+				D870E77D2992ECF2005D176C /* AvenirNext-BoldItalic.otf in Resources */,
+				D870E77E2992ECF2005D176C /* AvenirNext-Italic.otf in Resources */,
+				D870E77F2992ECF2005D176C /* AvenirNext-Medium.otf in Resources */,
+				D870E7802992ECF2005D176C /* AvenirNext-MediumItalic.otf in Resources */,
+				132CE6E4299655F1001ED158 /* AntDesign.ttf in Resources */,
+				D870E7812992ECF2005D176C /* AvenirNext-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D870E7922992F254005D176C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D870E7932992F254005D176C /* LaunchScreen.storyboard in Resources */,
+				D870E7942992F254005D176C /* MaterialIcons.ttf in Resources */,
+				D870E7952992F254005D176C /* MaterialCommunityIcons.ttf in Resources */,
+				D870E7962992F254005D176C /* Images.xcassets in Resources */,
+				D870E7972992F254005D176C /* AvenirNext-Bold.otf in Resources */,
+				D870E7982992F254005D176C /* AvenirNext-BoldItalic.otf in Resources */,
+				D870E7992992F254005D176C /* AvenirNext-Italic.otf in Resources */,
+				D870E79A2992F254005D176C /* AvenirNext-Medium.otf in Resources */,
+				D870E79B2992F254005D176C /* AvenirNext-MediumItalic.otf in Resources */,
+				132CE6E5299655F1001ED158 /* AntDesign.ttf in Resources */,
+				D870E79C2992F254005D176C /* AvenirNext-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D870E7AD2992F28A005D176C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D870E7AE2992F28A005D176C /* LaunchScreen.storyboard in Resources */,
+				D870E7AF2992F28A005D176C /* MaterialIcons.ttf in Resources */,
+				D870E7B02992F28A005D176C /* MaterialCommunityIcons.ttf in Resources */,
+				D870E7B12992F28A005D176C /* Images.xcassets in Resources */,
+				D870E7B22992F28A005D176C /* AvenirNext-Bold.otf in Resources */,
+				D870E7B32992F28A005D176C /* AvenirNext-BoldItalic.otf in Resources */,
+				D870E7B42992F28A005D176C /* AvenirNext-Italic.otf in Resources */,
+				D870E7B52992F28A005D176C /* AvenirNext-Medium.otf in Resources */,
+				D870E7B62992F28A005D176C /* AvenirNext-MediumItalic.otf in Resources */,
+				132CE6E6299655F1001ED158 /* AntDesign.ttf in Resources */,
+				D870E7B72992F28A005D176C /* AvenirNext-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortal/Pods-PatientPortalCommonPods-PatientPortal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortal/Pods-PatientPortalCommonPods-PatientPortal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortal/Pods-PatientPortalCommonPods-PatientPortal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PatientPortalCommonPods-PatientPortalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PatientPortalCommonPods-PatientPortal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalTests/Pods-PatientPortalCommonPods-PatientPortalTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalTests/Pods-PatientPortalCommonPods-PatientPortalTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalTests/Pods-PatientPortalCommonPods-PatientPortalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D870E7702992ECF2005D176C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PatientPortalCommonPods-PatientPortalDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D870E7712992ECF2005D176C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D870E7822992ECF2005D176C /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		D870E7832992ECF2005D176C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalDev/Pods-PatientPortalCommonPods-PatientPortalDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalDev/Pods-PatientPortalCommonPods-PatientPortalDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalDev/Pods-PatientPortalCommonPods-PatientPortalDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D870E7842992ECF2005D176C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalDev/Pods-PatientPortalCommonPods-PatientPortalDev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalDev/Pods-PatientPortalCommonPods-PatientPortalDev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalDev/Pods-PatientPortalCommonPods-PatientPortalDev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D870E78B2992F254005D176C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PatientPortalCommonPods-PatientPortalQa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D870E78C2992F254005D176C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D870E79D2992F254005D176C /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		D870E79E2992F254005D176C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalQa/Pods-PatientPortalCommonPods-PatientPortalQa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalQa/Pods-PatientPortalCommonPods-PatientPortalQa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalQa/Pods-PatientPortalCommonPods-PatientPortalQa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D870E79F2992F254005D176C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalQa/Pods-PatientPortalCommonPods-PatientPortalQa-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalQa/Pods-PatientPortalCommonPods-PatientPortalQa-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalQa/Pods-PatientPortalCommonPods-PatientPortalQa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D870E7A62992F28A005D176C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PatientPortalCommonPods-PatientPortalStg-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D870E7A72992F28A005D176C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D870E7B82992F28A005D176C /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		D870E7B92992F28A005D176C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalStg/Pods-PatientPortalCommonPods-PatientPortalStg-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalStg/Pods-PatientPortalCommonPods-PatientPortalStg-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalStg/Pods-PatientPortalCommonPods-PatientPortalStg-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D870E7BA2992F28A005D176C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalStg/Pods-PatientPortalCommonPods-PatientPortalStg-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalStg/Pods-PatientPortalCommonPods-PatientPortalStg-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalStg/Pods-PatientPortalCommonPods-PatientPortalStg-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortal/Pods-PatientPortalCommonPods-PatientPortal-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortal/Pods-PatientPortalCommonPods-PatientPortal-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortal/Pods-PatientPortalCommonPods-PatientPortal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalTests/Pods-PatientPortalCommonPods-PatientPortalTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalTests/Pods-PatientPortalCommonPods-PatientPortalTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatientPortalCommonPods-PatientPortalTests/Pods-PatientPortalCommonPods-PatientPortalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* PatientPortalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D870E7722992ECF2005D176C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D870E7732992ECF2005D176C /* AppDelegate.mm in Sources */,
+				D870E7742992ECF2005D176C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D870E78D2992F254005D176C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D870E78E2992F254005D176C /* AppDelegate.mm in Sources */,
+				D870E78F2992F254005D176C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D870E7A82992F28A005D176C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D870E7A92992F28A005D176C /* AppDelegate.mm in Sources */,
+				D870E7AA2992F28A005D176C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* PatientPortal */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC7575A4D2CD2119A683A32 /* Pods-PatientPortalCommonPods-PatientPortalTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PatientPortalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PatientPortal.app/PatientPortal";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C5D3F2764AB4A79FD49FD1 /* Pods-PatientPortalCommonPods-PatientPortalTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = PatientPortalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PatientPortal.app/PatientPortal";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E9FEB8B8FD1F9F70463190 /* Pods-PatientPortalCommonPods-PatientPortal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PatientPortal/PatientPortal.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PatientPortal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Patient Portal";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.healthbookplus.patientportal;
+				PRODUCT_NAME = PatientPortal;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C3900780200B9B558127E1 /* Pods-PatientPortalCommonPods-PatientPortal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PatientPortal/PatientPortal.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PatientPortal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Patient Portal";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.healthbookplus.patientportal;
+				PRODUCT_NAME = PatientPortal;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D870E7862992ECF2005D176C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 460CB4EA6DEC01D07CA054BE /* Pods-PatientPortalCommonPods-PatientPortalDev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_dev;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PatientPortalDev.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PatientPortal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Patient Portal";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.healthbookplus.patientportal.development;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		D870E7872992ECF2005D176C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF96BAE733F7E59DBE6D5A70 /* Pods-PatientPortalCommonPods-PatientPortalDev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_dev;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PatientPortalDev.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PatientPortal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Patient Portal";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.healthbookplus.patientportal.development;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		D870E7A12992F254005D176C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B117B44003A7D9812AFD2672 /* Pods-PatientPortalCommonPods-PatientPortalQa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_qa;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PatientPortalQa.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PatientPortal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Patient Portal";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.healthbookplus.patientportal.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		D870E7A22992F254005D176C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA1E3026896E27081DD80F65 /* Pods-PatientPortalCommonPods-PatientPortalQa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_qa;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PatientPortalQa.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PatientPortal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Patient Portal";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.healthbookplus.patientportal.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		D870E7BC2992F28A005D176C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9303DFB08A540A36B23DE6AB /* Pods-PatientPortalCommonPods-PatientPortalStg.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_stg;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PatientPortalStg.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PatientPortal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Patient Portal";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.healthbookplus.patientportal.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		D870E7BD2992F28A005D176C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB83488BE9DED129A1B0241 /* Pods-PatientPortalCommonPods-PatientPortalStg.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_stg;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PatientPortalStg.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PatientPortal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Patient Portal";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.healthbookplus.patientportal.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PatientPortalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PatientPortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PatientPortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D870E7852992ECF2005D176C /* Build configuration list for PBXNativeTarget "PatientPortalDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D870E7862992ECF2005D176C /* Debug */,
+				D870E7872992ECF2005D176C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D870E7A02992F254005D176C /* Build configuration list for PBXNativeTarget "PatientPortalQa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D870E7A12992F254005D176C /* Debug */,
+				D870E7A22992F254005D176C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D870E7BB2992F28A005D176C /* Build configuration list for PBXNativeTarget "PatientPortalStg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D870E7BC2992F28A005D176C /* Debug */,
+				D870E7BD2992F28A005D176C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

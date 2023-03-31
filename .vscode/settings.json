@@ -1,0 +1,14 @@
+{
+  // Editor
+  "editor.formatOnSave": true,
+  // ESLint
+  "eslint.format.enable": true,
+  // Code Spell Checker
+  "cSpell.words": [
+    "clouduploado",
+    "Habbit",
+    "Pressable",
+    "Telehealth",
+    "validic"
+  ]
+}

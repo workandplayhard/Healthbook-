@@ -1,0 +1,11 @@
+{
+  "name": "PatientPortal",
+  "displayName": "PatientPortal",
+  "slug": "patient-portal",
+  "owner": "healthbookplus_expoorg",
+  "extra": {
+    "eas": {
+      "projectId": "375213ae-555a-435e-969c-3dab732397f4"
+    }
+  }
+}
